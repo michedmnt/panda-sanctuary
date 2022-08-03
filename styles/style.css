@@ -311,7 +311,6 @@ h2 {
 header {
   background-image: url(../assets/header-image.png);
   background-repeat: no-repeat;
-  background-size: fill;
   background-position: center;
   min-height: 90vh;
 }
@@ -363,4 +362,20 @@ nav a {
 
 .fa-brands {
   color: #FFF;
+}
+
+.primarySection {
+  background-color: #D6F1E4;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.primarySection h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 50px;
 }

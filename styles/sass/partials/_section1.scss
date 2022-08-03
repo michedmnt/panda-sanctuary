@@ -1,0 +1,14 @@
+// Primary Section - Gallery
+
+.primarySection{
+    background-color: $secondaryColor;
+    max-width: 90%;
+    margin: 0 auto;
+
+}
+
+.primarySection h3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
