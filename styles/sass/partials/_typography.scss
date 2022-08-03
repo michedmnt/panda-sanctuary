@@ -6,6 +6,7 @@ body {
     font-family: $baseFont;
     font-size: $baseFontSize;
     color: $primaryTextColor;
+    letter-spacing: 0.2px;
 }
 
 h1, h3, h4 {
@@ -14,6 +15,7 @@ h1, h3, h4 {
 
 h1 {
     color: $primaryTextColor;
+    
 }
 
 h3 {
@@ -21,7 +23,7 @@ h3 {
 }
 
 
-h2, h3, h4 {
+h1, h2, h3, h4 {
     font-weight: normal;
 }
 
@@ -37,14 +39,8 @@ h3 {
     font-size: 4.2rem;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-    transition: 0.3s;
-}
-
 .moreText p {
-    color: $tertiaryTextColor;
+    color: $tertiaryColor;
 }
 
 .bobbyBella h3,
@@ -52,6 +48,6 @@ a {
     color: $primaryTextColor;
 }
 
-.teritarySection a {
-    color: $secondaryColor;
+a {
+    text-decoration: none;
 }

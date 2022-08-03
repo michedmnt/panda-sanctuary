@@ -1,0 +1,43 @@
+header {
+    background-image: url(../assets/header-image.png);
+    background-repeat: no-repeat;
+    background-size: fill;
+    background-position: center;
+    min-height: 90vh;
+}
+
+h1 span,
+h2 span {
+    display: block;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    padding: 30px 20px 10px;
+    color: $primaryTextColor;
+    font-family: $baseFont;
+    font-weight: bold;
+    text-shadow: 2px 2px $tertiaryColor;
+}
+
+.heading {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socials li{
+    padding: 3px;
+}
+.fa-brands {
+    color: $primaryTextColor;
+}
