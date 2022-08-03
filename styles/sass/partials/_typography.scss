@@ -5,4 +5,53 @@ html {
 body {
     font-family: $baseFont;
     font-size: $baseFontSize;
+    color: $primaryTextColor;
+}
+
+h1, h3, h4 {
+    font-family: $headingFont;
+}
+
+h1 {
+    color: $primaryTextColor;
+}
+
+h3 {
+    color: $secondaryTextColor;
+}
+
+
+h2, h3, h4 {
+    font-weight: normal;
+}
+
+h1 {
+    font-size: $baseFontSize;
+}
+
+h2 {
+    font-size: 6.88rem;
+}
+
+h3 {
+    font-size: 4.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: 0.3s;
+}
+
+.moreText p {
+    color: $tertiaryTextColor;
+}
+
+.bobbyBella h3,
+.marcoText h3 {
+    color: $primaryTextColor;
+}
+
+.teritarySection a {
+    color: $secondaryColor;
 }

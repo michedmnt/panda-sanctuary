@@ -228,4 +228,53 @@ html {
 body {
   font-family: "Barlow", sans-serif;
   font-size: 2rem;
+  color: #FFF;
+}
+
+h1, h3, h4 {
+  font-family: "Offside", cursive;
+}
+
+h1 {
+  color: #FFF;
+}
+
+h3 {
+  color: #116500;
+}
+
+h2, h3, h4 {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 6.88rem;
+}
+
+h3 {
+  font-size: 4.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.moreText p {
+  color: #2C2D2C;
+}
+
+.bobbyBella h3,
+.marcoText h3 {
+  color: #FFF;
+}
+
+.teritarySection a {
+  color: #D6F1E4;
 }
